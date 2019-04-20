@@ -1,0 +1,10 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "quotemark": [true, "single", "jsx-double"],
+    "interface-name": [true, "never-prefix"],
+    "ordered-imports": false,
+    "member-ordering": [true, "fields-first"],
+    "curly": false
+  }
+}
