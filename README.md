@@ -11,14 +11,14 @@ A react form component that makes your life easier
 ## Props
 
  `<Form>`  
- - `onChange`: Optional.
- - `initialData`: Optional.
- - `formReadOnly`: Optional.  
+ - `onChange`: optional.
+ - `initialData`: optional.
+ - `formReadOnly`: optional.  
 
  `<FormItem>`  
 - `formKey`: 
-- `defaultValue`: Optional.
-- `children`: `() => (p: FormItemRenderArgs) => React.ReactNode`
+- `defaultValue`: optional.
+- `children`: `(p: FormItemRenderArgs) => React.ReactNode`
 
 `FormItemRenderArgs`
 ``` typescript
